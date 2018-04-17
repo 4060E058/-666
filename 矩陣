@@ -29,3 +29,5 @@ int main()//改void
 
   return 0;
 }
+
+![result](PIC/矩陣陣列.png)
