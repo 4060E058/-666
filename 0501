@@ -1,0 +1,65 @@
+===================================0501=======================
+                                 體積 面積
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+float getArea(float pi, int r){
+      return 4*pi*r*r;
+      }
+float getVolume(float pi, int r){
+      return 4*pi*r*r*r/3;
+      }
+int main(int argc, char *argv[])
+{
+    float pi = 3.1415926;
+    int i = 4;
+    
+    cout << "表面積: " << getArea(pi,i) << endl;
+    cout << "體積: " << getVolume(pi,i) << endl;
+     
+    
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
+===============字串的附加======s1===================
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  string s1("Welcome");
+s1.append(" to CPP"); 
+cout << s1 << endl; 
+}
+===============================s2==================
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ string s2("Welcome");
+s2.append(" to C and Cpp", 3, 6); 
+cout << s2 << endl;
+}
+================================s3==================
+#include <iostream>
+using namespace std;
+
+int main()
+{
+string s3("Welcome");
+s3.append(" to C and Cpp", 7); 
+cout << s3 << endl; 
+}
+==================================s4=================
+#include <iostream>
+using namespace std;
+
+int main()
+{
+string s4("Welcome"); 
+s4.append(14, 'F'); 
+cout << s4 << endl; 
+}
+======================================================
