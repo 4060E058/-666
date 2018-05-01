@@ -62,4 +62,26 @@ string s4("Welcome");
 s4.append(14, 'F'); 
 cout << s4 << endl; 
 }
-======================================================
+=======================從螢幕讀取字串===============================
+#include <iostream>
+using namespace std;
+
+int main()
+{
+string city;
+cout << "Enter a city: ";
+cin >> city; // Read to array city
+cout << "You entered " << city << endl;
+}
+===================================================================
+#include <iostream>
+using namespace std;
+
+int main()
+{
+string city;
+cout << "Enter a city: ";
+getline(cin, city, '\n'); // Same as getline(cin, city)
+cout << "You entered " << city << endl;
+}
+===================================================================
